@@ -1,0 +1,106 @@
+Script started on ma 30. huhtikuuta 2018 12.55.21
+python3 main.py
+Welcome to Solar System Simulator!
+
+Please enter the file name for planet specifications:
+planetfile.txt
+Succesfully saved planet called Earth
+Succesfully saved planet called Mars
+Succesfully saved the Sun, called Sun
+The planets were successfully read.
+
+You have the following options:
+
+1. Add a satellite
+2. Remove a satellite
+3. Change the planet file (this will delete added satellites)
+4. Change simulation settings
+5. Simulate
+6. Reset simulation (will not delete satellites)
+You can also quit the program by typing 'Quit'.
+
+
+Please give your input: 
+1
+
+Please give the following information for the satellite. Remember to give the unit as well. A blank input will stop the process.
+
+Units that can be used:
+Mass: g, kg, Mg, Gg, Tg, Pg, Eg, Zg, Yg
+Position: mm, cm, dm, m, km, Mm, Gm, Tm
+Velocity: mm/s, cm/s, dm/s, m/s, km/s, Mm/s, Gm/s, Tm/s
+You can also use format '1e-3' for 0.001, or 1e3 for 1000, for example.
+
+Give the vectors in component format, i.e 'x: 10km y: 20e10m z: 0m'
+
+Which celestial object do you wish to be the reference point for the satellite?
+Added planet(s):
+Earth
+Mars
+Sun (the Sun)
+Reference point: Earth
+Chose Earth as reference point.
+Name: Aalto-1
+Mass: 4kg
+Position: x: 6900km y: 0m z: 0m
+Velocity: x: 0m/s y: 7.8km/s z: 0m/s
+Satellite called Aalto-1 was added.
+
+Please give your input: 
+1
+
+Please give the following information for the satellite. Remember to give the unit as well. A blank input will stop the process.
+
+Units that can be used:
+Mass: g, kg, Mg, Gg, Tg, Pg, Eg, Zg, Yg
+Position: mm, cm, dm, m, km, Mm, Gm, Tm
+Velocity: mm/s, cm/s, dm/s, m/s, km/s, Mm/s, Gm/s, Tm/s
+You can also use format '1e-3' for 0.001, or 1e3 for 1000, for example.
+
+Give the vectors in component format, i.e 'x: 10km y: 20e10m z: 0m'
+
+Which celestial object do you wish to be the reference point for the satellite?
+Added planet(s):
+Earth
+Mars
+Sun (the Sun)
+Reference point: Sun
+Chose Sun as reference point.
+Name: Sun ori biter
+Mass: 100kg
+Position: x: 100e6 km y: 0km z: 0m
+Velocity: x: 0m/s y: 40km/s z: 0m/s
+Satellite called Sun orbiter was added.
+
+Please give your input: 
+5
+
+Simulation settings haven't been correctly set yet.
+Please insert simulation settings.
+Enter a number and a unit, e.g '10h'.
+Available units are: ms, s, min, h, d, wk, mo, y.
+Time step: 1h
+Total simulation time period: 150d
+
+Do you wish to have the results saved to a file? (y/n)
+y
+Please give the filename you wish to save the results to: Results.txt
+Earth 149600000000.0 0.0 0.0 Mars 227939200000.0 0.0 0.0 Sun 0.0 0.0 0.0 Aalto-1 149606900000.0 0.0 0.0 Sun orbiter 100000000000.0 0.0 0.0 
+
+Earth 149599961573.0 107225990.819 0.0 Mars 227939183447.0 86425197.9078 0.0 Sun 0.0 0.0 0.0 Aalto-1 149588808755.0 134955378.009 0.0 Sun orbiter 99999914000.2 143999958.719 0.0 
+
+Earth 149599846291.0 214451926.552 0.0 Mars 227939133788.0 172850383.263 0.0 Sun 0.0 0.0 0.0 Aalto-1 149571066810.0 268437442.354 0.0 Sun orbiter 99999656001.0 287999669.751 0.0 
+
+Earth 149599654155.0 321677752.114 0.0 Mars 227939051023.0 259275543.514 0.0 Sun 0.0 0.0 0.0 Aalto-1 149553432341.0 401400663.05 0.0 Sun orbiter 99999226003.2 431998885.415 0.0 
+
+Earth 149599385165.0 428903412.42 0.0 Mars 227938935153.0 345700666.109 0.0 Sun 0.0 0.0 0.0 Aalto-1 149535834514.0 534084128.566 0.0 Sun orbiter 99998624008.0 575997358.03 0.0 
+
+(over 4000 lines of coordinates)
+
+Simulation finished. Restart the program to reset the situation, or continue simulating.
+
+Please give your input: 
+quit
+User decided to quit the program
+
+Script done on ma 30. huhtikuuta 2018 12.58.27

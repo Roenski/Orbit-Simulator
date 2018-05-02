@@ -1,0 +1,63 @@
+Script started on ma 30. huhtikuuta 2018 13.07.46
+python3 main.py
+Welcome to Solar System Simulator!
+
+Please enter the file name for planet specifications:
+planetfile.txt
+Succesfully saved planet called Earth
+Succesfully saved planet called Mars
+Succesfully saved the Sun, called Sun
+The planets were successfully read.
+
+You have the following options:
+
+1. Add a satellite
+2. Remove a satellite
+3. Change the planet file (this will delete added satellites)
+4. Change simulation settings
+5. Simulate
+6. Reset simulation (will not delete satellites)
+You can also quit the program by typing 'Quit'.
+
+
+Please give your input: 
+1
+
+Please give the following information for the satellite. Remember to give the unit as well. A blank input will stop the process.
+
+Units that can be used:
+Mass: g, kg, Mg, Gg, Tg, Pg, Eg, Zg, Yg
+Position: mm, cm, dm, m, km, Mm, Gm, Tm
+Velocity: mm/s, cm/s, dm/s, m/s, km/s, Mm/s, Gm/s, Tm/s
+You can also use format '1e-3' for 0.001, or 1e3 for 1000, for example.
+
+Give the vectors in component format, i.e 'x: 10km y: 20e10m z: 0m'
+
+Which celestial object do you wish to be the reference point for the satellite?
+Added planet(s):
+Earth
+Mars
+Sun (the Sun)
+Reference point: Mars
+Chose Mars as reference point.
+Name: SatSat
+Mass: 1000kg
+Position: x: 10000km y: 1000km z: 1m
+Velocity: x: 100km/s y: 2m/s z: 0m/s
+Satellite called SatSat was added.
+
+Please give your input: 
+2
+Here are the satellites that have been added:
+
+The following satellites have been added:
+
+SatSat
+Which of these you wish to remove?
+SatSat
+Satellite called SatSat was removed.
+
+Please give your input: 
+quit
+User decided to quit the program
+
