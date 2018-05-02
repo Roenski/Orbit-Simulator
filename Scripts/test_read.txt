@@ -1,0 +1,12 @@
+Maa
+5,97219e24 kg
+6371e3 m
+x:149600000 km y: 0m z: 0m
+x: 0 m/s y: 30e3 m/s z: 0 m/s
+
+Aurinko
+1.98855e30 kg
+1 391 400 km
+x: 0 m y: 0 m z: 0m
+x: 0m/s y: 0m/s z: 0m/s
+
